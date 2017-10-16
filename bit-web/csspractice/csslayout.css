@@ -1,0 +1,57 @@
+.sirina {
+    width: 300px;
+
+}
+
+
+#strana {
+position: relative;
+width: 960px;
+margin: 0 auto;
+
+}
+
+#lista {
+    float: right;
+    background-color: orange;
+    
+    
+
+}
+
+ul {
+
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+.sirina {
+float: left;
+padding: 5px;
+}
+
+
+#clear {
+clear: left;
+
+
+}
+
+
+hr {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+table {
+    background-color: goldenrod;
+    font-size : 24px;
+    padding : 10px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}

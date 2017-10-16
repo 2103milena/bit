@@ -1,0 +1,78 @@
+.box {
+    width: 200px;
+    height: 200px;
+
+}
+
+.red {
+    background-color: red
+}
+
+.yellow {
+    background-color: orange;
+
+
+}
+
+
+.blue {
+    background-color: darkblue;
+}
+
+
+#prvi
+
+{   position: relative;
+    z-index: 3;
+
+
+}
+
+#drugi {
+    position: relative;
+    left: 70px;
+    bottom: 70px;
+    z-index: 2;
+
+}
+
+#treci {
+    position: relative;
+    left: 140px;
+    bottom: 140px;
+    z-index: 1;
+}
+
+
+.crvena
+{
+    position: absolute;
+    top: 5px;
+    right: 5px; 
+    z-index: 3;
+}
+
+
+.zuta {
+
+position: absolute;
+top: 75px;
+right: 75px; 
+z-index: 2;
+}
+
+
+.plava {
+
+position: absolute;
+top: 145px;
+right: 145px; 
+z-index: 1;
+}
+
+
+#poslednji {
+    position: relative;
+
+
+}
