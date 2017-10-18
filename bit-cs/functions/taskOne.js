@@ -26,8 +26,8 @@ zbir2();
 
 function prod(){
 
-    a = 3;
-     b = 3;
+    var a = 3;
+    var b = 3;
     var c = a * b;
     return c;
 }
