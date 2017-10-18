@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.padding {
+    padding: 15px;
+}
+
+.padding-bot {
+    padding-bottom: 10px;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+header img {
+    width: 100%;
+    filter: brightness(50%)
+}
+
+.absolute {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.quote {
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.head_button {
+    background-color: rgb(13, 94, 138);
+    border-radius: 20px;
+    color: white;
+}
+
+.head_button p {
+    font-size: 0.6em;
+    padding: 9px;
+    letter-spacing: 2px;
+}
+
+nav {
+    text-align: center;
+}
+
+.build{
+    color: orange;
+    border: solid black;
+    border-right: none;
+    
+}
+.nav_ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(119, 178, 247);
+    color: white;
+}
+
+.nav_ul li {
+    padding:5px;
+}
+
+.nav_ul li:hover {
+    background-color: rgb(29, 62, 223);
+}
+
+hr {
+    width: 20%;
+    margin: 0 auto 20px auto;  
+  }
+
+.main h4 {
+      text-align: left;
+      color: rgb(27, 133, 190);
+      padding: 15px 0;
+  }
+.main p {
+      text-align: left;
+      padding-bottom: 20px;
+  }
+
+.main_ul {
+      list-style-image: url('https://d9y0hamgk6l6h.cloudfront.net/production/icon-arrow-orange-ef5cc66a72b633653a6991ce60f7dbb598a7333d46484fdc2e57e5dba0864396.svg');
+      list-style-position: inside;
+  }
+.main_ul li {
+      text-align: left;
+      padding: 3px;
+  }
+
+
+.druga_zgrada {
+     width : 100%;
+     padding : 15px 0;
+} 
+
+.section2 h2{
+    text-align: center;
+}
+
+article{
+    padding: 20px 0;
+}
+
+.iskustva {
+    background-color: rgb(119, 178, 247);
+    margin: 13px 10px;
+    padding:10px;
+}
+
+
+.slike{
+    float: left;
+    width: 20%;
+    border-radius: 50%;
+    border : solid 3px white;
+    padding: 3px;
+}
+
+.iskustva h4 {
+    float: left;
+    padding-left: 10px;
+    color: black;
+}
+
+.iskustva p {
+    clear: both;
+    color:white;
+    padding-top: 5px;
+    line-height: 150%;
+}
+
+.sec1 {
+    background-color: rgb(47, 197, 109);
+    padding: 20px;
+    color: white;        
+
+}
+.sec2 {
+    background-color: rgb(231, 57, 71);
+    padding: 20px;
+    color: white;        
+}
+
+.sec3 {
+    background-color: rgb(73, 73, 218);
+    color: white;    
+    padding: 20px;
+}
+.sec4 {
+    background-color: rgb(64, 203, 221);
+    padding: 20px;
+}
+
+.contact p{
+    text-align: center;
+    padding: 5px;
+}
+
+.contact img {
+    filter: invert(100%);
+    padding-right: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.contact h5 {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+form p input, textarea {
+    width: 100%;
+    text-align: left;
+    
+}
+
+form button{
+    padding: 10px;
+    float: left;
+    background-color: orange;
+    border-radius: 5px;
+    margin-top:15px;
+    
+}
+
+form{
+    padding:15px;
+}
