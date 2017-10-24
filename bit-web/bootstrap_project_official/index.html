@@ -15,15 +15,18 @@
     <div class="gore">
         <nav class="container navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">BIT STUDENT</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">MAIN
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">MAIN
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">PORTFOLIO<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">ABOUT</a>
-                <a class="nav-item nav-link" href="#">CONTACT</a>
-            </div>
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">PORTFOLIO
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-item nav-link" href="#">ABOUT</a>
+                    <a class="nav-item nav-link" href="#">CONTACT</a>
+                </div>
             </div>
         </nav>
     </div>
@@ -36,35 +39,62 @@
     <section class="col-12">
         <h2>PORTFOLIO</h2>
         <hr>
-        <img src="images/portfolio/cabin.png" alt="1" class="col-12">
-        <img src="images/portfolio/cake.png" alt="2" class="col-12">
-        <img src="images/portfolio/circus.png" alt="3" class="col-12">
-        <img src="images/portfolio/game.png" alt="4" class="col-12">
-        <img src="images/portfolio/safe.png" alt="5" class="col-12">
-        <img src="images/portfolio/submarine.png" alt="6" class="col-12">
-
+        <div class="col-12">
+            <img src="images/portfolio/cabin.png" alt="1" class="img-fluid">
+        </div>
+        <div class="col-12">
+            <img src="images/portfolio/cake.png" alt="2" class="img-fluid">
+        </div>
+        <div class="col-12">
+            <img src="images/portfolio/circus.png" alt="3" class="img-fluid">
+        </div>
+        <div class="col-12">
+            <img src="images/portfolio/game.png" alt="4" class="img-fluid">
+        </div>
+        <div class="col-12">
+            <img src="images/portfolio/safe.png" alt="5" class="img-fluid">
+        </div>
+        <div class="col-12">
+            <img src="images/portfolio/submarine.png" alt="6" class="img-fluid">
+        </div>
     </section>
 
     <section id="section2">
         <h2>ABOUT</h2>
         <hr>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem eum quod doloremque hic praesentium veritatis in natus a accusantium fugiat quas corrupti , modi. Harum voluptatum quaerat necessitatibus aliquam saepe. Aliquid perferendis !</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem eum quod doloremque hic praesentium veritatis in natus a accusantium fugiat quas corrupti  modi. Harum voluptatum quaerat necessitatibus aliquam saepe. Aliquid perferendis !</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem eum quod doloremque hic praesentium veritatis in
+            natus a accusantium fugiat quas corrupti , modi. Harum voluptatum quaerat necessitatibus aliquam saepe. Aliquid
+            perferendis !</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem eum quod doloremque hic praesentium veritatis in
+            natus a accusantium fugiat quas corrupti modi. Harum voluptatum quaerat necessitatibus aliquam saepe. Aliquid
+            perferendis !</p>
         <button>Find Out More</button>
     </section>
 
-    <section id="section3">
+    <section id="section3" class="container">
         <h2>CONTACT ME</h2>
-        <hr>
-        <p>Name</p><hr>
-        <p>Email Address</p><hr>
-        <p>Phone Number</p><hr>
-        <p>Message</p><hr>
+        <form class="row">
+            
+                <input type="text" name='name' placeholder="Name" class="col-12">
+           
+           
+                <input type="email" name='email' placeholder="Email" class = "col-12">
+           
+           
+                <input type="text" name='phone' placeholder="Phone number" class = "col-12">
+          
+                <input type="text" name='message' placeholder="Message" class = "col-12">
+           
+        </form>
         <button>Send</button>
+      </section>
+         <footer>
+            <h3>LOCATION</h3>
+            <p>Centar za obrazovanje</p>
+            <p>BIT TECHNOLOGY</p>
+            <p>Nemanjina 4/1, Beograd</p>
+        </footer>
 
-    </section>
-
-    
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -72,6 +102,7 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
+        
 </body>
 
 </html>

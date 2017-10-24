@@ -1,0 +1,28 @@
+#section3 {
+    input {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        padding: 20px;
+        font-weight: 700;
+        font-size: 1.5em;
+    }
+    h2 {
+        font-weight: 700;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    button {
+     position: absolute;
+     left: 0;
+     margin-left: 20px; 
+     margin-top: 20px;
+     padding: 10px;
+     background-color: $greenish;
+     border-radius: 5px;
+     color: white;
+     font-weight: 700;
+     width: 100px;
+     border: none;
+    }
+}

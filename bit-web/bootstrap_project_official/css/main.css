@@ -24,4 +24,35 @@ section {
 section img {
   margin-bottom: 10px; }
 
+#section2 button {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #18bc9c;
+  color: white; }
+
+#section3 input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 1.5em; }
+#section3 h2 {
+  font-weight: 700;
+  padding-bottom: 20px;
+  padding-top: 20px; }
+#section3 button {
+  position: absolute;
+  left: 0;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #18bc9c;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  width: 100px;
+  border: none; }
+
 /*# sourceMappingURL=main.css.map */
