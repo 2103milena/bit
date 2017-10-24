@@ -29,12 +29,14 @@ function Program(date, listOfMovies, totNumOfMov) {
     this.date = Date.now;
     this.listOfMovies = [];
     this.totNumOfMov = totNumOfMov;
-    this.getData = function(){
-        var loam = '';
-        for (var i = 0; i < this.listOfMovies.length; i++) {
-            var imeFilma = listOfMovies[i];
-            
+    this.getData = function() {
+        for (var i = 0; i < listOfMovies.length; i++){
+            return this.date + this.length[listOfMovies.length];
         }
+    }
+    this.MovieGetData = function() {
+            var movieData = this.title + this.length + this.genre.getData();
+            return movieData;
     }
 }
 
@@ -43,6 +45,3 @@ function Festival (name, listOfProg,numOfMovinAllPr) {
     this.listOfProg = [];
     this.numOfMovinAllPr = numOfMovinAllPr;
 }
-
-
-
