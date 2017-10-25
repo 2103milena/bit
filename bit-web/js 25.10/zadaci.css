@@ -1,0 +1,19 @@
+.giveBackground {
+    background-color: blueviolet;
+}
+
+.anotherBackground {
+    background-color: palevioletred;
+
+}
+
+.treciStyle {
+    background-color: moccasin;
+    text-transform: uppercase;
+
+}
+
+.active {
+    background-color: fuchsia;
+
+}
