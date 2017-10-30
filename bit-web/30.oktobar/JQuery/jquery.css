@@ -1,0 +1,16 @@
+.prvi {
+
+    border-bottom: solid 3px;
+}
+
+.svi {
+    text-transform: uppercase;
+}
+
+.active {
+
+    color:red;
+}
+.pozadina{
+    background-color : yellow;
+}
