@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Movie list</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./entities.js"></script>
+    <script src="./form.js"></script>
+</head>
+
+<body>
+    <h1>Movie list</h1>
+    <form>
+        <input type="text" id="movie-title" value="" placeholder="Title">
+        <input type="number" id="movie-length" value="" placeholder="Length">
+        <select name="genre-select" id="genre-select">
+            <option value="none">-</option>
+            <option value="action">action</option>
+            <option value="drama">drama</option>
+            <option value="commedy">commedy</option>
+        </select>
+        <div id="error"></div>
+        <input type="button" onclick="createMovie()" value="Create movie" id="submit">
+        <hr>
+        <div id="movie-list"></div>
+    </form>
+</body>
+
+</html>
