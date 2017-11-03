@@ -1,0 +1,102 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* CSS RESTART END */
+body {
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0 45px;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+nav {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.logo {
+    display: inline-block;
+    float: left;
+}
+
+.search {
+    display: inline-block;
+    float: right;
+}
+.search input {
+    color: #000;
+}
+
+.h2-class {
+    font-size: 2rem;
+    text-align: center;
+    padding: 25px 0;
+}
+
+section  {
+ background-color: #f2f2f2;
+ max-width: 90%;
+ margin: 0 auto;
+ padding: 35px;
+}
+
+.movie img {
+    width: 100%;
+}
+
+.movie {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container div {
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 10px;
+    
+}
