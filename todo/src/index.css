@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.forma {
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.forma input{
+  margin-top: 50px;
+  -moz-box-shadow:    1px 1px 1px 1px #918F8F;
+  -webkit-box-shadow: 1px 1px 1px 1px #969494;
+  box-shadow:         1px 1px 1px 1px #868686;
+}
+
+.forma h1 {
+  font-family: 'Berkshire Swash', cursive;
+  margin-top: 50px;
+  -moz-box-shadow:    1px 1px 1px 1px #918F8F;
+  -webkit-box-shadow: 1px 1px 1px 1px #969494;
+  box-shadow:         1px 1px 1px 1px #868686;
+}
+
+button {
+  margin-left: 5px;
+  margin-top: 50px;
+  -moz-box-shadow:    1px 1px 1px 1px #918F8F;
+  -webkit-box-shadow: 1px 1px 1px 1px #969494;
+  box-shadow:         1px 1px 1px 1px #868686;
+
+}
